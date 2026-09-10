@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio — Diseño 3D</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="brand">Portafolio<span>.3D</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <div>
+      <div class="hero-eyebrow">Diseño 3D caricaturesco</div>
+      <h1>Personajes con <em>alma</em>,<br>en 3D y pastel.</h1>
+      <p>Soy Marcelys Carmona, diseñadora 3D especializada en modelado caricaturesco. Doy vida a personajes y escenas con formas suaves, colores pastel y mucha personalidad usando Blender como software principal.</p>
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-solid">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-ghost">Hablemos</a>
+      </div>
+    </div>
+    <div class="blob-stage">
+      <div class="blob-dot blob-dot--1"></div>
+      <div class="blob-dot blob-dot--2"></div>
+      <div class="blob">
+        <div class="blob-face" style="position:absolute; top:42%; left:50%; transform:translateX(-50%);">
+          <div class="blob-eye"></div>
+          <div class="blob-eye"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MÍ ============ -->
+  <section class="section" id="sobre-mi">
+    <div class="wrap about">
+      <div class="about-photo" id="aboutPhoto">
+        Reemplaza este bloque<br>por tu foto o autorretrato 3D
+      </div>
+      <div class="about-text">
+        <h2 style="font-size:2rem; margin-bottom:20px;">Sobre mí</h2>
+        <p>Empece en el modelado 3D como hobbit, gracias a la practica cosntante pude ir mejorando mis habilidades al realizar modelados, texturizados y renderes. Me especielice en realizar modelados mas caricaturescos y divertidos.</p>
+        <p>Mi principal motivacion es poder realizar modelados para poder transmitir sentimientos a traves de ellos. Me gustaria trabajar en futuros proyectos sobre videojuegos el cual es un campo el cual se acierta mucho a mi estilo, como tambien el area de la educación</p>
+        <div class="swatches" id="skillsList">
+          <span class="swatch">Blender</span>
+          <span class="swatch">ZBrush</span>
+          <span class="swatch">Cinema 4D</span>
+          <span class="swatch">Substance Painter</span>
+          <span class="swatch">Toon Shading</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROYECTOS ============ -->
+  <section class="section" id="proyectos">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Proyectos</h2>
+        <p>Personajes, criaturas y escenas hechas con mucho cariño (y pastel).</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="section contact wrap" id="contacto">
+    <h2>¿Tienes un proyecto en mente? Conversemos.</h2>
+    <div class="contact-row">
+      <a href="mailto:tu@email.com" class="contact-email">marcelys2998@gmail.com</a>
+      <div class="contact-socials">
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">Behance</a>
+        <a href="#" target="_blank" rel="noopener">ArtStation</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <footer>
+      <span>© <span id="year"></span> Marcelys Carmona</span>
+      <span>Hecho con HTML, CSS y JS</span>
+    </footer>
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
